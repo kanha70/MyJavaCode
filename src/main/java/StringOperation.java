@@ -43,6 +43,31 @@ public class StringOperation {
       //  int without = klp.length();
       //  System.out.println(with-without);
 
+      // Compare
+        String s1 = "Kanhaiya Lal";
+        String s2 = "Kanhaiya Lal";
+        String s3 = new String("Kanhaiya");
+       // System.out.println(s1.equals(s2));
+       // System.out.println(s1.equals(s3));
+       // System.out.println(s1.equalsIgnoreCase(s2));
+       // System.out.println(s1.toLowerCase());
+       // System.out.println(s1.toUpperCase());
+       // System.out.println(s1.contentEquals("Kanhaiya"));
+       // System.out.println(s1.trim().length());
+       // System.out.println(s1 == s2);
+
+        System.out.println(s1.compareTo(s2)); //0
+        System.out.println(s1.compareTo(s3)); //negaive
+        System.out.println(s3.compareTo(s1)); //Positive
+
+
+
+
+
+
+
+
+
 
 
 
