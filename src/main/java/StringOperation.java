@@ -56,13 +56,35 @@ public class StringOperation {
        // System.out.println(s1.trim().length());
        // System.out.println(s1 == s2);
 
-        System.out.println(s1.compareTo(s2)); //0
-        System.out.println(s1.compareTo(s3)); //negaive
-        System.out.println(s3.compareTo(s1)); //Positive
+       // System.out.println(s1.compareTo(s2)); //0
+       // System.out.println(s1.compareTo(s3)); //negaive
+       // System.out.println(s3.compareTo(s1)); //Positive
 
 
+        //Contain Method
+       // String n = new String("Hey Kanha!, How are you???");
+       // System.out.println(n.contains("Hey Kanha!"));
+       // System.out.println(n.contains(","));
+       // System.out.println(n.contains("?,"));
 
+       // if (n.contains("HeyKanha"))
+       //     System.out.println("String Contain "+"Hey Kanha");
+       // else System.out.println("\"Not Found\"");
 
+       //String s = "String End with github.com";
+       // System.out.println(s.endsWith(".com"));
+       // System.out.println(s.endsWith("m"));
+       // System.out.println(s.endsWith(""));
+       // System.out.println(s.endsWith(" "));
+       // if (s.endsWith("github.com")) System.out.println("Successed");
+       // else System.out.println("Not Contain");
+
+       // if ("Hi Kanhaiya".endsWith("")) System.out.println("Inside if Block");
+       // else System.out.println("Inside Else Block");
+       // if ("Hi Java ".endsWith(" ")) System.out.println("Inside if");
+       // else System.out.println("inside Else ");
+       // if ("Hi Ananya".endsWith("K")) System.out.println("Inside If");
+       // else System.out.println("inside Else");
 
 
 
